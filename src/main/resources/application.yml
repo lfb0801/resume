@@ -1,0 +1,3 @@
+graphql:
+    packages:
+        - "com.lfb0801.resume"
