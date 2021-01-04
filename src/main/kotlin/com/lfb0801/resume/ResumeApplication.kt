@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
 
 @Component
 class MyAwesomeQuery : Query {
-	fun myAwesomeQuery() = "query"
+	fun myAwesomeQuery() = "Query"
 }
 
 @Component
@@ -28,7 +28,7 @@ class MyAwesomeMutation : Mutation {
 
 @Component
 class MyAwesomeSubscription : Subscription {
-	fun myAwesomeSubscription() = Flux.interval(Duration.ofSeconds(1)).map { "subsription" }
+	fun myAwesomeSubscription() = Flux.interval(Duration.ofSeconds(1)).map { "Subsription" }
 }
 
 data class Widget(val id: Int, val value: String)
